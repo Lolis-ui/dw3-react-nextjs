@@ -1,0 +1,43 @@
+/*Classes com escopo local (Funcionam apenas dentro deste componente)*/
+
+.luz{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+.vermelho{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.amarelo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.verde{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.cinza{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+.laranja{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}

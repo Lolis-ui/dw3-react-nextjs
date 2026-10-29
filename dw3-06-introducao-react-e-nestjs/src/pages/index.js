@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Helloword from "@/components/helloword";
 import User from "@/components/user";
+import Contador from "@/components/contador";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,8 @@ export default function Home() {
       <Helloword />
       {/* Comentario no JSX */}
       <User />
+      <br />
+      <Contador />
       <main>
         <h1>Bem-vindo ao Meu Primeiro Site em React!</h1>
         <p>Este é um exemplo simples de um site criado com Next.js.</p>
